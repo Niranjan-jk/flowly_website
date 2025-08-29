@@ -8,6 +8,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Check } from "lucide-react";
+import Link from "next/link";
 
 enum PopularPlan {
   NO = 0,
@@ -130,9 +131,14 @@ export const PricingSection = () => {
                     popular === PopularPlan?.YES ? "default" : "secondary"
                   }
                   className="w-full"
-                  onClick={() => window.open("https://drive.google.com/file/d/1ZCay2YE5jFqGQLp-5Nc7YOMiwnQlwBoW/view?usp=sharing", "_blank")}
+                  asChild
                 >
-                  {buttonText}
+                  <Link 
+                    href="https://drive.google.com/file/d/1ZCay2YE5jFqGQLp-5Nc7YOMiwnQlwBoW/view?usp=sharing" 
+                    target="_blank"
+                  >
+                    {buttonText}
+                  </Link>
                 </Button>
               </CardFooter>
             </Card>
