@@ -10,28 +10,28 @@ interface BenefitsProps {
 
 const benefitList: BenefitsProps[] = [
   {
-    icon: "Blocks",
-    title: "Build Brand Trust",
+    icon: "Users",
+    title: "Centralized Client Management",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Keep all your client information in one place. Easily access contact details, communication history, and project status.",
   },
   {
-    icon: "LineChart",
-    title: "More Leads",
+    icon: "TrendingUp",
+    title: "Boost Sales Performance",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+      "Track your sales pipeline with our Kanban board and analytics. Identify bottlenecks and close more deals.",
   },
   {
-    icon: "Wallet",
-    title: "Higher Conversions",
+    icon: "Clock",
+    title: "Save Time and Effort",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+      "Automate repetitive tasks with email templates and calendar integration. Focus on what matters most - building relationships.",
   },
   {
-    icon: "Sparkle",
-    title: "Test Marketing Ideas",
+    icon: "Target",
+    title: "Smart Lead Generation",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Find and research potential leads with our viral Twitter posts finder and lead research tools.",
   },
 ];
 
@@ -43,12 +43,10 @@ export const BenefitsSection = () => {
           <h2 className="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
 
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Your Shortcut to Success
+            Transform Your Client Management
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-            ducimus reprehenderit architecto rerum similique facere odit
-            deleniti necessitatibus quo quae.
+            Flowly CRM helps you build stronger client relationships, close more deals, and grow your business.
           </p>
         </div>
 

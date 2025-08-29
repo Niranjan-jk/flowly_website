@@ -13,32 +13,32 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free NextJS Shadcn template.",
+    question: "What platforms does Flowly CRM support?",
+    answer: "Flowly CRM is a desktop application available for Windows, macOS, and Linux operating systems.",
     value: "item-1",
   },
   {
-    question: "Duis aute irure dolor in reprehenderit in voluptate velit?",
+    question: "Can I import my existing client data?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam consectetur sapiente, iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "Yes, Flowly CRM supports importing client data from popular CRM platforms and CSV files. Our migration team can also assist with complex data transfers.",
     value: "item-2",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet Consectetur natus dolor minus quibusdam?",
+      "Is my client data secure with Flowly CRM?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis.",
+      "Absolutely. We use industry-standard encryption for data at rest and in transit. All client data is stored securely with regular backups and compliance with privacy regulations.",
     value: "item-3",
   },
   {
-    question: "Excepteur sint occaecat cupidata non proident sunt?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "Do you offer training for new users?",
+    answer: "Yes, we provide comprehensive onboarding, video tutorials, and live training sessions to help your team get up to speed quickly with Flowly CRM.",
     value: "item-4",
   },
   {
     question:
-      "Enim ad minim veniam, quis nostrud exercitation ullamco laboris?",
-    answer: "consectetur adipisicing elit. Sint labore.",
+      "Can I customize the email templates?",
+    answer: "Yes, our drag-and-drop email template editor allows you to create fully customized templates that match your brand identity.",
     value: "item-5",
   },
 ];

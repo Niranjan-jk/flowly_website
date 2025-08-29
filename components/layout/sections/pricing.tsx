@@ -25,48 +25,51 @@ interface PlanProps {
 
 const plans: PlanProps[] = [
   {
-    title: "Free",
+    title: "Starter",
     popular: 0,
-    price: 0,
+    price: 29,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
+      "Perfect for freelancers and small teams getting started with CRM.",
     buttonText: "Start Free Trial",
     benefitList: [
-      "1 team member",
-      "1 GB storage",
-      "Upto 2 pages",
+      "Up to 500 contacts",
+      "Email Templates",
+      "Basic Calendar",
+      "Document Storage (1GB)",
       "Community support",
-      "AI assistance",
     ],
   },
   {
-    title: "Premium",
+    title: "Professional",
     popular: 1,
-    price: 45,
+    price: 79,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Get starterd",
+      "Ideal for growing businesses with advanced CRM needs.",
+    buttonText: "Get Started",
     benefitList: [
-      "4 team member",
-      "8 GB storage",
-      "Upto 6 pages",
+      "Up to 5,000 contacts",
+      "All Starter features",
+      "Advanced Calendar",
+      "Lead Research Tool",
+      "Kanban Board",
       "Priority support",
-      "AI assistance",
     ],
   },
   {
     title: "Enterprise",
     popular: 0,
-    price: 120,
+    price: 149,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Contact US",
+      "For large organizations with complex CRM requirements.",
+    buttonText: "Contact Sales",
     benefitList: [
-      "10 team member",
-      "20 GB storage",
-      "Upto 10 pages",
-      "Phone & email support",
-      "AI assistance",
+      "Unlimited contacts",
+      "All Professional features",
+      "Viral Twitter Posts Finder",
+      "Advanced Document Management",
+      "Custom Reporting",
+      "Dedicated Account Manager",
+      "24/7 Phone & Email Support",
     ],
   },
 ];
@@ -79,11 +82,11 @@ export const PricingSection = () => {
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        Get unlimitted access
+        Simple, transparent pricing
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground pb-14">
-        Lorem ipsum dolor sit amet consectetur adipisicing reiciendis.
+        Choose the perfect plan for your team. All plans include a 14-day free trial.
       </h3>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-4">

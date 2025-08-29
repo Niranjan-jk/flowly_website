@@ -27,51 +27,51 @@ interface ReviewProps {
 const reviewList: ReviewProps[] = [
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe",
-    userName: "Product Manager",
+    name: "Sarah Johnson",
+    userName: "Sales Director",
     comment:
-      "Wow NextJs + Shadcn is awesome!. This template lets me change colors, fonts and images to match my brand identity. ",
+      "Flowly CRM has transformed how we manage our client relationships. The email templates save us hours each week!",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Sophia Collins",
-    userName: "Cybersecurity Analyst",
+    name: "Michael Chen",
+    userName: "Marketing Manager",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. ",
+      "The lead research and viral Twitter posts finder have helped us identify and engage with prospects we never would have found otherwise.",
     rating: 4.8,
   },
 
   {
     image: "https://github.com/shadcn.png",
-    name: "Adam Johnson",
-    userName: "Chief Technology Officer",
+    name: "Emma Rodriguez",
+    userName: "Small Business Owner",
     comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "As a solo entrepreneur, Flowly CRM helps me stay organized and professional. The calendar integration is a game-changer!",
     rating: 4.9,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Ethan Parker",
-    userName: "Data Scientist",
+    name: "David Wilson",
+    userName: "Customer Success Manager",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "The Kanban board visualization makes it easy to track our entire client pipeline. Our team adoption was seamless.",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Ava Mitchell",
-    userName: "IT Project Manager",
+    name: "Lisa Thompson",
+    userName: "Business Development",
     comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud incididunt consectetur adipiscing elit.",
+      "Client document management has never been easier. We've reduced document retrieval time by 80% since switching to Flowly.",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Isabella Reed",
-    userName: "DevOps Engineer",
+    name: "Robert Kim",
+    userName: "Tech Startup Founder",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Flowly's intuitive interface and powerful features make it the perfect CRM for growing businesses. Worth every penny!",
     rating: 4.9,
   },
 ];
@@ -85,7 +85,7 @@ export const TestimonialSection = () => {
         </h2>
 
         <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-          Hear What Our 1000+ Clients Say
+          Hear What Our Clients Say
         </h2>
       </div>
 

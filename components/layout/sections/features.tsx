@@ -10,40 +10,40 @@ interface FeaturesProps {
 
 const featureList: FeaturesProps[] = [
   {
-    icon: "TabletSmartphone",
-    title: "Mobile Friendly",
+    icon: "Mail",
+    title: "Email Templates",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "Create and manage professional email templates for consistent client communication. Save time with our drag-and-drop editor.",
   },
   {
-    icon: "BadgeCheck",
-    title: "Social Proof",
+    icon: "Calendar",
+    title: "Integrated Calendar",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "Schedule meetings, set reminders, and track appointments with our powerful calendar system. Sync with popular calendar apps.",
   },
   {
-    icon: "Goal",
-    title: "Targeted Content",
+    icon: "FileText",
+    title: "Client Documents",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+      "Store and organize all client-related documents securely. Share files with clients and team members with ease.",
   },
   {
-    icon: "PictureInPicture",
-    title: "Strong Visuals",
+    icon: "Search",
+    title: "Lead Research",
     description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+      "Research potential leads with our built-in tools. Gather social media insights and company information automatically.",
   },
   {
-    icon: "MousePointerClick",
-    title: "Clear CTA",
+    icon: "Kanban",
+    title: "Kanban Board",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+      "Visualize your sales pipeline and project progress with customizable Kanban boards. Drag and drop tasks for easy management.",
   },
   {
-    icon: "Newspaper",
-    title: "Clear Headline",
+    icon: "Twitter",
+    title: "Viral Twitter Posts Finder",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+      "Discover trending Twitter posts and content relevant to your business. Engage with potential leads and stay updated on industry trends.",
   },
 ];
 
@@ -55,13 +55,11 @@ export const FeaturesSection = () => {
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        What Makes Us Different
+        Powerful CRM Capabilities
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-        fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-        facere tenetur.
+        Flowly CRM comes packed with everything you need to manage your clients and grow your business.
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

@@ -11,90 +11,90 @@ export const FooterSection = () => {
             <Link href="#" className="flex font-bold items-center">
               <ChevronsDownIcon className="w-9 h-9 mr-2 bg-gradient-to-tr from-primary via-primary/70 to-primary rounded-lg border border-secondary" />
 
-              <h3 className="text-2xl">Shadcn</h3>
+              <h3 className="text-2xl">Flowly</h3>
             </Link>
           </div>
 
           <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Contact</h3>
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Github
-              </Link>
-            </div>
-
-            <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Twitter
-              </Link>
-            </div>
-
-            <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Instagram
-              </Link>
-            </div>
-          </div>
-
-          <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-lg">Platforms</h3>
-            <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                iOS
-              </Link>
-            </div>
-
-            <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Android
-              </Link>
-            </div>
-
-            <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Web
-              </Link>
-            </div>
-          </div>
-
-          <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-lg">Help</h3>
-            <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link href="#contact" className="opacity-60 hover:opacity-100">
                 Contact Us
               </Link>
             </div>
 
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                FAQ
+              <Link href="https://twitter.com/flowly" className="opacity-60 hover:opacity-100">
+                Twitter
               </Link>
             </div>
 
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Feedback
+              <Link href="https://linkedin.com/company/flowly" className="opacity-60 hover:opacity-100">
+                LinkedIn
               </Link>
             </div>
           </div>
 
           <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-lg">Socials</h3>
+            <h3 className="font-bold text-lg">Features</h3>
+            <div>
+              <Link href="#features" className="opacity-60 hover:opacity-100">
+                Email Templates
+              </Link>
+            </div>
+
+            <div>
+              <Link href="#features" className="opacity-60 hover:opacity-100">
+                Calendar Integration
+              </Link>
+            </div>
+
+            <div>
+              <Link href="#features" className="opacity-60 hover:opacity-100">
+                Lead Research
+              </Link>
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <h3 className="font-bold text-lg">Resources</h3>
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
-                Twitch
+                Documentation
               </Link>
             </div>
 
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
-                Discord
+                Support
               </Link>
             </div>
 
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
-                Dribbble
+                API Status
+              </Link>
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <h3 className="font-bold text-lg">Company</h3>
+            <div>
+              <Link href="#team" className="opacity-60 hover:opacity-100">
+                About Us
+              </Link>
+            </div>
+
+            <div>
+              <Link href="#" className="opacity-60 hover:opacity-100">
+                Careers
+              </Link>
+            </div>
+
+            <div>
+              <Link href="#" className="opacity-60 hover:opacity-100">
+                Blog
               </Link>
             </div>
           </div>
@@ -103,14 +103,7 @@ export const FooterSection = () => {
         <Separator className="my-6" />
         <section className="">
           <h3 className="">
-            &copy; 2024 Designed and developed by
-            <Link
-              target="_blank"
-              href="https://github.com/leoMirandaa"
-              className="text-primary transition-all border-primary hover:border-b-2 ml-1"
-            >
-              Leo Miranda
-            </Link>
+            &copy; 2024 Flowly CRM by Dream Dream Team. All rights reserved.
           </h3>
         </section>
       </div>

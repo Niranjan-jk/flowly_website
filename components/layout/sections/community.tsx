@@ -1,4 +1,3 @@
-import DiscordIcon from "@/components/icons/discord-icon";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -17,24 +16,32 @@ export const CommunitySection = () => {
           <Card className="bg-background border-none shadow-none text-center flex flex-col items-center justify-center">
             <CardHeader>
               <CardTitle className="text-4xl md:text-5xl font-bold flex flex-col items-center">
-                <DiscordIcon />
+                <div className="bg-primary/20 p-4 rounded-full mb-6">
+                  <div className="bg-primary p-4 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
+                      <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                      <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                  </div>
+                </div>
                 <div>
-                  Ready to join this
+                  Join the Flowly
                   <span className="text-transparent pl-2 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
-                    Community?
+                    Community
                   </span>
                 </div>
               </CardTitle>
             </CardHeader>
             <CardContent className="lg:w-[80%] text-xl text-muted-foreground">
-              Join our vibrant Discord community! Connect, share, and grow with
-              like-minded enthusiasts. Click to dive in! 🚀
+              Connect with other Flowly CRM users, share best practices, and get tips from our experts. Join our community today! 🚀
             </CardContent>
 
             <CardFooter>
               <Button asChild>
                 <a href="https://discord.com/" target="_blank">
-                  Join Discord
+                  Join Community
                 </a>
               </Button>
             </CardFooter>
