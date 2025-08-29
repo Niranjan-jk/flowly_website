@@ -22,7 +22,7 @@ export const HeroSection = () => {
           <div className="max-w-screen-md mx-auto text-center text-4xl md:text-6xl font-bold">
             <h1>
               Revolutionize your
-              <span className="text-transparent px-2 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
+              <span className="text-transparent px-2 bg-gradient-to-r from-[#ffe0c2] to-primary bg-clip-text">
                 Client Management
               </span>
               with Flowly
@@ -34,9 +34,11 @@ export const HeroSection = () => {
           </p>
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
-            <Button className="w-5/6 md:w-1/4 font-bold group/arrow">
-              Get Started
-              <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
+            <Button className="w-5/6 md:w-1/4 font-bold group/arrow" asChild>
+              <Link href="https://drive.google.com/file/d/1ZCay2YE5jFqGQLp-5Nc7YOMiwnQlwBoW/view?usp=sharing" target="_blank">
+                Get Started
+                <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
+              </Link>
             </Button>
 
             <Button

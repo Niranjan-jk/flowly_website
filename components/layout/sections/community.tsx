@@ -18,7 +18,7 @@ export const CommunitySection = () => {
               <CardTitle className="text-4xl md:text-5xl font-bold flex flex-col items-center">
                 <div className="bg-primary/20 p-4 rounded-full mb-6">
                   <div className="bg-primary p-4 rounded-full">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary-foreground">
                       <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
                       <circle cx="9" cy="7" r="4"></circle>
                       <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
@@ -28,7 +28,7 @@ export const CommunitySection = () => {
                 </div>
                 <div>
                   Join the Flowly
-                  <span className="text-transparent pl-2 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
+                  <span className="text-transparent pl-2 bg-gradient-to-r from-[#ffe0c2] to-primary bg-clip-text">
                     Community
                   </span>
                 </div>
@@ -40,8 +40,8 @@ export const CommunitySection = () => {
 
             <CardFooter>
               <Button asChild>
-                <a href="https://discord.com/" target="_blank">
-                  Join Community
+                <a href="https://drive.google.com/file/d/1ZCay2YE5jFqGQLp-5Nc7YOMiwnQlwBoW/view?usp=sharing" target="_blank">
+                  Get Started
                 </a>
               </Button>
             </CardFooter>

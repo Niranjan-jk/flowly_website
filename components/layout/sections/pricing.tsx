@@ -130,6 +130,7 @@ export const PricingSection = () => {
                     popular === PopularPlan?.YES ? "default" : "secondary"
                   }
                   className="w-full"
+                  onClick={() => window.open("https://drive.google.com/file/d/1ZCay2YE5jFqGQLp-5Nc7YOMiwnQlwBoW/view?usp=sharing", "_blank")}
                 >
                   {buttonText}
                 </Button>

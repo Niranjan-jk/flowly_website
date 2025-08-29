@@ -49,12 +49,8 @@ export const ContactSection = () => {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    const { firstName, lastName, email, subject, message } = values;
-    console.log(values);
-
-    const mailToLink = `mailto:support@flowlycrm.com?subject=${subject}&body=Hello I am ${firstName} ${lastName}, my Email is ${email}. %0D%0A${message}`;
-
-    window.location.href = mailToLink;
+    // Redirect to Google Drive link instead of sending email
+    window.open("https://drive.google.com/file/d/1ZCay2YE5jFqGQLp-5Nc7YOMiwnQlwBoW/view?usp=sharing", "_blank");
   }
 
   return (
@@ -233,7 +229,7 @@ export const ContactSection = () => {
                   />
                 </div>
 
-                <Button className="mt-4">Send message</Button>
+                <Button className="mt-4" type="submit">Send message</Button>
               </form>
             </Form>
           </CardContent>
